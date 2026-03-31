@@ -1,0 +1,4 @@
+com/example/demoRest/model/Item.class
+com/example/demoRest/DemoRestApplication.class
+com/example/demoRest/controller/ItemController.class
+com/example/demoRest/service/ItemService.class
