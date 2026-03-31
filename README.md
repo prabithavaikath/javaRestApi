@@ -14,17 +14,6 @@ A production-ready RESTful API built with Spring Boot for managing a collection 
 
 ---
 
-## ✨ Features
-
-- ✅ **RESTful API** - Clean and intuitive endpoints
-- ✅ **In-Memory Storage** - Using ArrayList for fast prototyping
-- ✅ **Input Validation** - Automatic validation of required fields
-- ✅ **Error Handling** - Proper HTTP status codes and error messages
-- ✅ **Auto-incrementing IDs** - Unique identifiers for each item
-- ✅ **Live Deployment** - Hosted on Railway for global access
-- ✅ **Comprehensive Documentation** - Easy to understand and use
-
----
 
 ## 🛠️ Tech Stack
 
