@@ -52,3 +52,41 @@ curl https://javarestapi-production.up.railway.app/api/items
 
 # 3. Get a specific item
 curl https://javarestapi-production.up.railway.app/api/items/1
+```
+
+ ## Setup Instructions
+Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/javaRestApi.git
+cd javaRestApi
+Build the project
+
+
+
+mvn clean compile
+Run the application
+
+
+
+mvn spring-boot:run
+Verify it's working
+
+
+
+curl http://localhost:8080/api/items
+The API will be available at http://localhost:8080
+
+📊 Sample Usage Scenarios
+E-commerce Product Management
+bash
+# Add products
+curl -X POST http://localhost:8080/api/items \
+  -H "Content-Type: application/json" \
+  -d '{"name":"iPhone 15","description":"Latest smartphone","price":999.99}'
+
+curl -X POST http://localhost:8080/api/items \
+  -H "Content-Type: application/json" \
+  -d '{"name":"AirPods Pro","description":"Wireless earbuds","price":249.99}'
+
+# Get product details
+curl http://localhost:8080/api/items/
